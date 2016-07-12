@@ -115,7 +115,7 @@ class Mailer extends \Nette\Mail\SmtpMailer {
 	 */
 	protected static function parseHeaderParam($params = []) {
 		$items = [];
-		foreach ($params as $email => $name) {
+		foreach ((array) $params as $email => $name) {
 			$item = $email;
 
 			if ($name) {
