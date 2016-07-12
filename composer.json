@@ -1,0 +1,21 @@
+{
+	"name": "adt/smtp-queue-mailer",
+	"type": "library",
+	"description": "SMTP mailer for Nette Framework",
+	"keywords": ["ADT", "nette", "email", "smtp"],
+	"license": ["MIT"],
+	"authors": [
+		{
+			"name": "Apps Dev Team s.r.o.",
+			"homepage": "http://appsdevteam.com"
+		}
+	],
+	"require": {
+		"nette/nette": "^2.2"
+	},
+	"extra": {
+	},
+	"autoload": {
+		"psr-4": { "ADT\\SmtpQueueMailer\\": "src/" }
+	}
+}
