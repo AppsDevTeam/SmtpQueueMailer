@@ -11,7 +11,7 @@
 		}
 	],
 	"require": {
-		"nette/nette": "^2.2",
+		"nette/nette": "~2.3.0",
 		"symfony/console": "~2.3"
 	},
 	"extra": {
